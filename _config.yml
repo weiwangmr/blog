@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 每天进步一点点
+title: weiwangmr's blog
 subtitle:
 description:
-author: william wang
+author: weiwangmr
 language: zh-Hans
 timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.consicelife.site.com
+url: http://weiwangmr.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,7 +102,7 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/zgbkny/zgbkny.github.io
+  repository: https://github.com/weiwangmr/weiwangmr.github.io
   branch: master
 
 widgets: 
