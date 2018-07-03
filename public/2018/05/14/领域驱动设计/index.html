@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="写作," />
+  <meta name="keywords" content="软件设计 DDD 领域驱动设计," />
 
 
 
@@ -95,18 +95,18 @@
 
 
 
-<meta name="description" content="之前试了多次培养写作的习惯，最后都半途而废。每次开始的时候都觉得挺艰难，尤其是持续几天后就会觉得特别枯燥，总是对自己做的事情信心不足。每次一停下来又会懊悔。为了避免自己再陷入这样的死循环，需要做一个突破。 问题是这件事情到底要不要做，有没有意义。短期看不到写文章对我的帮助，但是我需要把以往了解的东西、学习的技术等，沉淀下来，然后不断我掌握的各种知识、理念进行总结提炼，可能还需要更新。这个是我强需求">
-<meta name="keywords" content="写作">
+<meta name="description" content="作为程序员，最讨厌的两件事情莫过于：读别人的代码；写文档。但是，又最常需要做这两件事情。因为要解决问题、或者接手别人的工作，必须去读别人的代码，只有代码本身才能表达它自己逻辑。很多文档、注释没有随着时间变化而变化，当然，有人可能会说做到把文档写好、注释写清楚，但一方面成本太高，另一方面可能你的业务变化太慢、或者业务不够复杂。 即时代码中使用了正确的框架和设计模式，随着业务复杂度变高、开发人员的变化">
+<meta name="keywords" content="软件设计 DDD 领域驱动设计">
 <meta property="og:type" content="article">
-<meta property="og:title" content="如何完成一个艰难的目标">
-<meta property="og:url" content="http://www.consicelife.site.com/2017/09/24/start-long-actions/index.html">
-<meta property="og:site_name" content="每天进步一点点">
-<meta property="og:description" content="之前试了多次培养写作的习惯，最后都半途而废。每次开始的时候都觉得挺艰难，尤其是持续几天后就会觉得特别枯燥，总是对自己做的事情信心不足。每次一停下来又会懊悔。为了避免自己再陷入这样的死循环，需要做一个突破。 问题是这件事情到底要不要做，有没有意义。短期看不到写文章对我的帮助，但是我需要把以往了解的东西、学习的技术等，沉淀下来，然后不断我掌握的各种知识、理念进行总结提炼，可能还需要更新。这个是我强需求">
+<meta property="og:title" content="领域驱动设计入门">
+<meta property="og:url" content="http://weiwangmr.github.io/2018/05/14/领域驱动设计/index.html">
+<meta property="og:site_name" content="复杂问题简单化，简单事情重复做">
+<meta property="og:description" content="作为程序员，最讨厌的两件事情莫过于：读别人的代码；写文档。但是，又最常需要做这两件事情。因为要解决问题、或者接手别人的工作，必须去读别人的代码，只有代码本身才能表达它自己逻辑。很多文档、注释没有随着时间变化而变化，当然，有人可能会说做到把文档写好、注释写清楚，但一方面成本太高，另一方面可能你的业务变化太慢、或者业务不够复杂。 即时代码中使用了正确的框架和设计模式，随着业务复杂度变高、开发人员的变化">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-17T16:10:09.000Z">
+<meta property="og:updated_time" content="2018-07-02T16:30:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="如何完成一个艰难的目标">
-<meta name="twitter:description" content="之前试了多次培养写作的习惯，最后都半途而废。每次开始的时候都觉得挺艰难，尤其是持续几天后就会觉得特别枯燥，总是对自己做的事情信心不足。每次一停下来又会懊悔。为了避免自己再陷入这样的死循环，需要做一个突破。 问题是这件事情到底要不要做，有没有意义。短期看不到写文章对我的帮助，但是我需要把以往了解的东西、学习的技术等，沉淀下来，然后不断我掌握的各种知识、理念进行总结提炼，可能还需要更新。这个是我强需求">
+<meta name="twitter:title" content="领域驱动设计入门">
+<meta name="twitter:description" content="作为程序员，最讨厌的两件事情莫过于：读别人的代码；写文档。但是，又最常需要做这两件事情。因为要解决问题、或者接手别人的工作，必须去读别人的代码，只有代码本身才能表达它自己逻辑。很多文档、注释没有随着时间变化而变化，当然，有人可能会说做到把文档写好、注释写清楚，但一方面成本太高，另一方面可能你的业务变化太慢、或者业务不够复杂。 即时代码中使用了正确的框架和设计模式，随着业务复杂度变高、开发人员的变化">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://www.consicelife.site.com/2017/09/24/start-long-actions/"/>
+  <link rel="canonical" href="http://weiwangmr.github.io/2018/05/14/领域驱动设计/"/>
 
 
 
 
 
-  <title>如何完成一个艰难的目标 | 每天进步一点点</title>
+  <title>领域驱动设计入门 | 复杂问题简单化，简单事情重复做</title>
   
 
 
@@ -172,7 +172,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">每天进步一点点</span>
+        <span class="site-title">复杂问题简单化，简单事情重复做</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -279,16 +279,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.consicelife.site.com/2017/09/24/start-long-actions/">
+    <link itemprop="mainEntityOfPage" href="http://weiwangmr.github.io/2018/05/14/领域驱动设计/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="william wang">
+      <meta itemprop="name" content="weiwangmr">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="name" content="复杂问题简单化，简单事情重复做">
     </span>
 
     
@@ -296,7 +296,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">如何完成一个艰难的目标</h1>
+          <h1 class="post-title" itemprop="name headline">领域驱动设计入门</h1>
         
 
         <div class="post-meta">
@@ -308,8 +308,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-24T10:38:46Z">
-                2017-09-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-14T00:06:14Z">
+                2018-05-14
               </time>
             
 
@@ -346,17 +346,15 @@
       
 
       
-        <p>之前试了多次培养写作的习惯，最后都半途而废。每次开始的时候都觉得挺艰难，尤其是持续几天后就会觉得特别枯燥，总是对自己做的事情信心不足。每次一停下来又会懊悔。为了避免自己再陷入这样的死循环，需要做一个突破。</p>
-<p>问题是这件事情到底要不要做，有没有意义。短期看不到写文章对我的帮助，但是我需要把以往了解的东西、学习的技术等，沉淀下来，然后不断我掌握的各种知识、理念进行总结提炼，可能还需要更新。这个是我强需求，而最好的方法是写文章。所以这个问题很清楚了，我一定要做，但到底有没有意义需要看做的质量。</p>
-<p>那就先养成这个习惯，然后慢慢提升质量。当然这样的想法太宽泛，想要真正实现需要继续细化。对写作这件事情自己现在完全没有信心，先定个小目标：持续写一周。一周之后再看结果，然后调整。</p>
-<p>对于完成一个目标，我过往的经验只有长跑和做项目。刚上大学那会儿，我跑完一圈就跑不动了，1000米体测只是刚刚及格的水平，每次快到期末就开始担心1000米体测。后来决定去改变自己的身体状态，决定长跑。尝试了很多次，每次都坚持不了几天。可能是因为长久以来都害怕体测，导致就算自个儿随便去跑跑，也会有沉重的心理负担，最后是心理负担把自己压垮了。于是我当时想了一个办法，先不管跑步的速度，先看长度。2分半没圈的速度可能只能跑3圈，那就3分没圈的速度先跑5圈，然后慢慢加，直到加到10圈。然后再训练速度。其实长度起来，心里的障碍就排除了，几个月下来，反而哪天不跑步倒是不舒服了。而且，额外的收益是冬天再也不感冒了。所以，其实没有什么难事，再难的事情都可以通过拆分一一解决。 做项目获得的经验有些不同，应该说更多一些，比如拆分解决的策略是肯定有的，其他的策略是设计时把未来系统中可能出现的异常case要全部列出来，然后制定预案处理异常case。而且后面这个策略更为重要，细节是魔鬼。</p>
-<p>这么一来我的小目标应该很容易达到了。可能影响我达成目标的异常case：时间不够、身体不适、内容不确定。</p>
-<ul>
-<li>时间不够，早起来凑。使用sleep cycle唤醒</li>
-<li>身体不适，坚持锻炼预防，一般不会有大问题，偶尔出现坚持一下</li>
-<li>内容不确定，如果实在没想法，就把当天做的事情总结一下</li>
-</ul>
-<p>开始小目标！</p>
+        <p>作为程序员，最讨厌的两件事情莫过于：读别人的代码；写文档。但是，又最常需要做这两件事情。因为要解决问题、或者接手别人的工作，必须去读别人的代码，只有代码本身才能表达它自己逻辑。很多文档、注释没有随着时间变化而变化，当然，有人可能会说做到把文档写好、注释写清楚，但一方面成本太高，另一方面可能你的业务变化太慢、或者业务不够复杂。</p>
+<p>即时代码中使用了正确的框架和设计模式，随着业务复杂度变高、开发人员的变化，如果系统没有良好的设计，还是会慢慢腐化。最终，没人能了解整个系统的全貌，没人能描述业务的所有细节，具体的业务细节需要开发翻开代码梳理逻辑，系统的功能需要测试才能确认。开发新功能、维护这个系统都变成一件可怕、沮丧的事情，编程变得毫无乐趣。</p>
+<h1 id="程序为什么会腐化"><a href="#程序为什么会腐化" class="headerlink" title="程序为什么会腐化"></a>程序为什么会腐化</h1><p>程序大多是用来解决一类问题，所以这个是从问题到计算机底层的中间层。左边是人类的语言，右边是计算机的二进制世界。如果要解决的是一个简单的问题，比如1+1，那程序一定不会很复杂，因为问题距离计算机执行并不远。如果是求解一个一元二次方程，稍微难一点了，可能稍微了解一下程序逻辑还是能看懂的。如果是微积分的问题，更难一些，程序也更难懂。随着，问题的难度越来越高，问题与计算机底层的距离也越来越远。</p>
+<p>以上列举的都是一些具体的问题，现实的问题更加抽象、而且可能经常变化，程序可能在不同的程序员之间转手，由于前人的代码文档没有说的足够清楚、或是后人没有理解对前人的意思，程序开始散发出坏味道，慢慢腐化。</p>
+<h1 id="领域驱动设计"><a href="#领域驱动设计" class="headerlink" title="领域驱动设计"></a>领域驱动设计</h1><p>看过《三体》的朋友都知道，里面有个概念叫降维打击。即低维生物在面对高维生物的打击时，毫无招架之力。当我从计算机的低维视角看问题时，就像井底观天，以为天只有那么大。那设计出来的软件可想而知，当问题变化时，就开始疲于应对。</p>
+<p>因此，需要站在比问题更高的视角去想解决方案，可能是更明智的选择。</p>
+<p>领域驱动设计是一种用于解决复杂多领域问题的软件设计思想。领域驱动设计更强调开发人员、领域专家应该理解领域概念、原则和逻辑。</p>
+<p>任何一个问题，可能都不止是一个问题，开发人员和领域专家需要在<code>问题空间</code>把一个大问题拆解成几个弱关联、独立的几个小问题。<br>然后基于<code>问题空间</code>的分析，设计<code>解决空间</code>，将<code>问题空间</code>描述的问题映射到<code>解决空间</code>领域中进行解决。</p>
+<p>也就是从上到下分析并拆解成一个个小问题。这也是常见的分而治之的思想。今天先到这里，乏了，休息~</p>
 
       
     </div>
@@ -374,7 +372,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/写作/" rel="tag"># 写作</a>
+            <a href="/tags/软件设计-DDD-领域驱动设计/" rel="tag"># 软件设计 DDD 领域驱动设计</a>
           
         </div>
       
@@ -387,8 +385,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/24/rule-start/" rel="next" title="无规矩不成方圆">
-                <i class="fa fa-chevron-left"></i> 无规矩不成方圆
+              <a href="/2018/05/14/hexo教程/" rel="next" title="hexo Tutorial">
+                <i class="fa fa-chevron-left"></i> hexo Tutorial
               </a>
             
           </div>
@@ -447,13 +445,22 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
-               alt="william wang" />
-          <p class="site-author-name" itemprop="name">william wang</p>
+               alt="weiwangmr" />
+          <p class="site-author-name" itemprop="name">weiwangmr</p>
            
               <p class="site-description motion-element" itemprop="description"></p>
           
@@ -465,21 +472,12 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
           
 
           
@@ -487,7 +485,7 @@
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               
             </div>
@@ -513,6 +511,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#程序为什么会腐化"><span class="nav-number">1.</span> <span class="nav-text">程序为什么会腐化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#领域驱动设计"><span class="nav-number">2.</span> <span class="nav-text">领域驱动设计</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -533,7 +547,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">william wang</span>
+  <span class="author" itemprop="copyrightHolder">weiwangmr</span>
 
   
 </div>
